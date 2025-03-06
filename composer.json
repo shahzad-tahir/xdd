@@ -1,5 +1,5 @@
 {
-    "name": "yourvendor/xdd",
+    "name": "shahzad-tahir/xdd",
     "description": "An extended dump and debug package for Laravel",
     "type": "library",
     "license": "MIT",
