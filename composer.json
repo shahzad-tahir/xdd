@@ -1,0 +1,28 @@
+{
+    "name": "yourvendor/xdd",
+    "description": "An extended dump and debug package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xdd\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xdd\\XddServiceProvider"
+            ],
+            "aliases": {
+                "Xdd": "Xdd\\Facades\\Xdd"
+            }
+        }
+    }
+}
